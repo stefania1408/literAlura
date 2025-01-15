@@ -32,14 +32,16 @@ public class DriverLiterAlura {
         while(true){
             while(true){
                 try{
-                    System.out.println("\t>>> Book Api <<<\n");
+                    System.out.println("\t♦♦♦♦♦ LiterAlura ♦♦♦♦♦\n");
                     var menu="""
+                    por favor selecione una opcion:
+                    
                     1 .- Buscar un nuevo Libro
                     2.-  Mostrar los libros buscados
-                    3.-  Buscar en idiomas
+                    3.-  Buscar por idioma
                     4.-  Buscar autores vivos en el año
                     5.-  Mostrar todos los autores
-                    6.-  Mostrar top 5 libros mas descargados
+                    6.-  Mostrar top 5 libros más descargados
                     7.-  Salir
                     """;
                     System.out.println(menu);
